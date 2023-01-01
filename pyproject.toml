@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yt-downloader"
+version = "0.1.0"
+description = ""
+authors = ["Vebnik(Nik) <vebnik111@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.scripts]
+start = "main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
